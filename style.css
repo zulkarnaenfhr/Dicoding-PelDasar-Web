@@ -54,10 +54,11 @@ html::-webkit-scrollbar {
 
 .NavbarMenu {
     padding-right: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: "Nanum Pen Script", cursive;
+    color: #242f9b;
 }
 
 #Section1 {
@@ -276,6 +277,80 @@ html::-webkit-scrollbar {
     width: 280px;
 }
 
-.Section2-Badak-Vector{
+.Section2-Badak-Vector {
     width: 280px;
+}
+
+aside {
+    float: right;
+}
+
+#Section3 {
+    width: 100vw;
+    background-color: #a5dcef;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Section3-Content-Container {
+    width: 55vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 40px;
+    height: fit-content;
+    border: 5px solid #fe5685;
+    border-radius: 40px;
+}
+
+.Section3-Title-Diri {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.Section3-Title-Diri-Span {
+    color: #fe5685;
+}
+
+.Section3-Title-Diri1 {
+    padding-top: 10px;
+}
+
+.Section3-Biodata-Profile-Picture {
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.Section3-Sosmed-Container {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Section3-Sosmed-Container > a {
+    text-decoration: none;
+}
+
+.Section3-SosmedLogo {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+footer {
+    /* background-color: #e1f4fb; */
+    background-color: #b3e8e5;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-Text {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 20px;
 }
