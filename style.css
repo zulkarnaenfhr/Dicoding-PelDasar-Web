@@ -146,7 +146,7 @@ html::-webkit-scrollbar {
         margin-left: -50px;
     }
     100% {
-        margin-left: 900px;
+        margin-left: 30vw;
     }
 }
 
@@ -199,19 +199,6 @@ html::-webkit-scrollbar {
     position: relative;
     padding-bottom: 90px;
 }
-
-/* .Section2-Background-Container2 {
-    width: 100vw;
-    display: flex;
-    position: absolute;
-    top: 0;
-}
-
-.Section2-Cloud-Top {
-    width: 100vw;
-    transform: scaleY(-1);
-    z-index: 1;
-} */
 
 .Section2-Title {
     text-align: center;
@@ -285,7 +272,7 @@ html::-webkit-scrollbar {
     font-weight: 600;
 }
 
-.Section3-SeeMore-Button-Vector{
+.Section3-SeeMore-Button-Vector {
     font-size: 15px;
 }
 
@@ -295,7 +282,6 @@ html::-webkit-scrollbar {
 
 .Section2-Singa-Vector {
     width: 280px;
-    transform: scaleX(-1);
 }
 
 .Section2-Zebra-Vector {
@@ -378,4 +364,16 @@ footer {
 .Footer-Text {
     font-family: "Love Ya Like A Sister", cursive;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .Section1-Background-Container {
+        display: none;
+    }
+    .Section2-Animal-List-Container {
+        width: 90vw;
+    }
+    .Section1-Cloud2-Left {
+        transform: scale(0.5);
+    }
 }
