@@ -264,6 +264,31 @@ html::-webkit-scrollbar {
     padding-top: 20px;
 }
 
+.Section3-SeeMore-Button {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+    background: #f774a7;
+    color: white;
+    border: 3px solid #f774a7;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Section3-SeeMore-Button:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    color: #242f9b;
+    font-weight: 600;
+}
+
+.Section3-SeeMore-Button-Vector{
+    font-size: 15px;
+}
+
 .Section2-Cow-Vector {
     width: 280px;
 }
